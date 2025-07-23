@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kirana Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf2;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin-bottom: 5px;
+    }
+
+    nav {
+      background-color: #388e3c;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?groceries,store') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #388e3c;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .veg {
+      margin-top:30px;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shah Kirana Store</h1>
+    <p>Your Local Grocery Partner</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    Welcome to Our Kirana Store!
+  </div>
+
+  <div class="section" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://maharanirice.in/wp-content/uploads/2024/12/WhatsApp-Image-2024-11-30-at-15.02.26_2f87087c.jpg" alt="Rice">
+        <p>Premium Basmati Rice</p>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTsEBuLGHE6pdgk3I_wlDHun9IAlS8MtPuWWAG6yslDbZSVdiFC-tzcHvsqnx7BEvroGPHk8dMQuytMIwJPH_UtPHVEKl2Yi_N5jaXh1LnLvvX7jD8qlZrJ" alt="Wheat">
+        <p class="veg">Fresh Wheat Flour</p>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-3000-3000,pr-true,f-auto,q-80/cms/product_variant/8832f987-d164-48f0-a62c-e8e12ec6b989/Coriander-Leaves-Combo.jpeg" alt="Veggies">
+        <p class="veg">Organic Vegetables</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: shahkirana@gmail.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Location: Bhatta Bazzar, Purnea, Bihar</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Shah Kirana Store | All rights reserved.
+  </footer>
+
+</body>
+</html>
+
